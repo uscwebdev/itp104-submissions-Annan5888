@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amusement Ticket Order Form</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 30px;
+        }
+        .form-row {
+			margin: 10px 0px;
+			display: flex;
+		}
+		.left-col {
+			width: 200px;
+		}
+        #form {
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size:1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Amusement Ticket Order Form</h1>
+    <div id="form">
+        <form action="confirmation.html">
+
+            <div class="form-row">
+                <div class="left-col">
+                    <label for="first-id"><strong>First Name:</strong></label>
+                </div>
+                <input type="text" id="first-id" placeholder="Tommy">
+            </div>
+
+            <div class="form-row">
+                <div class="left-col">
+                    <label for="last-id"><strong>Last Name:</strong></label>
+                </div>
+                <input type="text" id="last-id" placeholder="Trojan">
+            </div>
+
+            <div class="form-row">
+                <div class="left-col">
+                    <label for="email-id"><strong>Email:</strong></label>
+                </div>
+                <input type="email" id="email-id" placeholder="ttrojan@usc.edu">
+            </div>
+
+            <div class="form-row">
+                <div class="left-col">
+                    <label for="phone"><strong>Phone:</strong></label>
+                </div>
+                <input type="tel" id="phone" placeholder="(123)123-1234">
+            </div>
+
+            <div class="form-row">
+                <div class="left-col">
+                    <strong>Payment Method:</strong>
+                </div>
+
+                <label>
+                    <input type="checkbox">
+                    Visa/MasterCard
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    PayPal
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Apple Pay
+                </label>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="left-col">
+                    <label for="dates"><strong>Dates:</strong></label>
+                </div>
+
+                <select id="dates">
+                    <option>October 1st</option>
+                    <option>October 2nd</option>
+                    <option>October 3rd</option>
+                    <option>October 4th</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="left-col">
+                    <strong>Ticket Types</strong>
+                </div> 
+
+                <label>
+                    <input type="radio" name="ticket">
+                    General-1 Day
+                </label>
+
+                <label>
+                    <input type="radio" name="ticket">
+                    VIP-1 Day
+                </label>
+
+                <label>
+                    <input type="radio" name="ticket">
+                    General-2 Day
+                </label>
+
+                <label>
+                    <input type="radio" name="ticket">
+                    VIP-2 Day
+                </label>
+
+
+            </div>
+            
+            <div class="form-row">
+
+                <div class="left-col">
+                    <label for="msg"><strong>Message::</strong></label>
+                </div> 
+                <textarea id="msg" placeholder="Leave your comments here"></textarea>
+            </div> 
+
+
+            <div class="form-row">
+                <label>
+                    <input type="checkbox">
+                    <em>I accept all the terms and conditions.</em>
+                </label>
+            </div>
+
+            <div class="form-row">
+				<button type="submit">Submit</button>
+				<button type="reset">Clear</button>
+			</div>
+
+        </form>
+    </div>
+</body>
+
+</html>
