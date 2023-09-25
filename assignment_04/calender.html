@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> October Calendar </title>
+    <style>
+        body {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(189, 184, 184);
+        }
+        table {
+            border-collapse: collapse;
+            background-color: rgb(240, 216, 155);
+        }
+        #header {
+            border: 1px solid #000;
+            text-align: center;
+            background-image: url("img/Fall_Wallpaper.jpg");
+            background-position: center;
+            height: 300px;
+            line-height: 300px;
+            background-size: cover;
+
+            color:white;
+            text-shadow: 0px 0px 15px black;
+            font-size: 2.5em;
+        }
+        th {
+            border: 1px solid #000;
+            width: 141.714px;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid #000;
+            height: 100px;
+            width:141.714px;
+            padding: 10px;
+            vertical-align: text-top;
+        }
+        .other {
+            color: rgb(114, 111, 111);
+        }
+        
+        .event {
+            text-align: center;
+            font-style: italic;
+            background-color:rgba(46, 46, 45, 0.5);
+            border-radius: 15px;
+        }
+        #birthday {
+            background-image: url("img/360_F_574663487_np7XtfvLTzHyJdkDUMAPaPVzRtMqiDzo.jpg");
+            background-position: center;
+            background-size: cover;
+            color:white;
+            text-shadow: 0px 0px 10px #000;
+        }
+        #food {
+            background-image: url("img/pexels-lukas-616401.jpg");
+            background-position: center;
+            background-size: cover;
+            color:white;
+            text-shadow: 0px 0px 10px #000;
+        }
+        #friends {
+            background-image: url("img/human-rights-background-with-diverse-people-free-vector.jpg");
+            background-position: center;
+            background-size: cover;
+            color:white;
+            text-shadow: 0px 0px 10px #000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>October 2023</h1>
+    </div> 
+
+    <table>
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td id= "birthday">
+                <div>4</div>
+                <div class="event"><strong>Annan's Birthday</strong></div>
+            </td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+
+        <tr>
+            <td>15</td>
+            <td id= "food">
+                <div>16</div>
+                <div class="event"><strong>World Food Day</strong></div>
+            </td>
+            <td>17</td>
+            <td>18</td>
+            <td id= "friends">
+                <div>19</div>
+                <div class="event"><strong>National New Friends Day</strong></div>
+            </td>
+            <td>20</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+        </tr>
+
+        <tr>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td class="other">1</td>
+            <td class="other">2</td>
+            <td class="other">3</td>
+            <td class="other">4</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
