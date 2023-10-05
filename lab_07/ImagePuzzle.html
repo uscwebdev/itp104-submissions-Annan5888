@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Puzzle | Annan Chen</title>
+    <style>
+        #main {
+            width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 0px 0px 15px black;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+        }
+        #box{
+            display: flex;
+            flex-wrap:wrap;
+            width: 620px;
+            margin:auto;;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #image1{
+            position:relative;
+            left: 10px;
+            box-shadow: 5px 10px 8px gray;
+        }
+        #image3{
+            position:relative;
+            bottom: 5px;
+            left:5px;
+            box-shadow: 5px 10px 8px gray;
+        }
+        #image8{
+            position:relative;
+            top: 5px;
+            box-shadow: 5px 10px 8px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1><strong>Alphabet Puzzle</strong></h1>
+
+        <div id="box">
+                <img id="image1" src="img/row-1-column-1.jpg" alt="row-1-column-1">
+                <img id="image2" src="img/row-1-column-2.jpg" alt="row-1-column-2">
+                <img id="image3" src="img/row-1-column-3.jpg" alt="row-1-column-3">
+                <img id="image4" src="img/row-2-column-1.jpg" alt="row-2-column-1">
+                <img id="image5" src="img/row-2-column-2.jpg" alt="row-2-column-2">
+                <img id="image6" src="img/row-2-column-3.jpg" alt="row-2-column-3">
+                <img id="image7" src="img/row-3-column-1.jpg" alt="row-3-column-1">
+                <img id="image8" src="img/row-3-column-2.jpg" alt="row-3-column-2">
+                <img id="image9" src="img/row-3-column-3.jpg" alt="row-3-column-3">
+        </div>
+    </div>
+</body>
+
+</html>
