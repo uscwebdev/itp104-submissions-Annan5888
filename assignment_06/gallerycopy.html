@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Golf Gallery</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        #header {
+            background-image: url("img/golf-course-background-563vt1gmg28ydioh.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #gallery1 {
+            display: flex;
+        }
+
+        .first {
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            position: relative;
+            background-color: darkgrey;
+            overflow: hidden;
+        }
+
+        .pic1 {
+            width: auto;
+            height: 300px;
+        }
+
+        #gallery2 {
+            display: flex;
+        }
+
+        #seconda {
+            width: 280px;
+            height: 590px;
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+            background-color: darkgrey;
+        }
+
+        .second {
+            width: 600px;
+            height: 290px;
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+            background-color: darkgrey;
+        }
+
+        #pic2a {
+            width: auto;
+            height: 590px;
+            position: relative;
+            right: 120px;
+        }
+
+        .pic2 {
+            width: 600px;
+            height: auto;
+        }
+        #gallery3 {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .Third {
+            width: 450px;
+            height: 300px;
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+            background-color: darkgrey;
+        }
+        .pic3{
+            width: auto;
+            height: 300px;
+            position: relative;
+            right: 30px;
+        }
+
+        .pic3a{
+            width: auto;
+            height: 300px;
+            position: relative;
+            right: 170px;
+        }
+        .caption {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+            text-align: center;
+			padding-top: 100px;
+			background-color: rgba(0, 0, 0, 0.6);
+			color: #FFF;
+			visibility: hidden;
+        }
+
+        .first:hover > .caption {
+			visibility: visible;
+        }
+
+        #seconda:hover > .caption {
+			visibility: visible;
+        }
+
+        .second:hover > .caption {
+			visibility: visible;
+        }
+
+        .Third:hover > .caption {
+			visibility: visible;
+        }
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Golf Gallery</h1>
+    </div>
+
+    <div id="navbar">
+        <a href="interestspageupdatecopy2.html" id="highlight-nav"><strong>Home</strong></a>
+        <a href="gallerycopy.html"><strong>Gallery</strong></a>
+    </div>
+
+    <div id="main">
+        <div id="gallery1">
+
+            <div class="first">
+                <img class="pic1" src="img/golfcart.jpg" alt="golf cart">
+                <div class="caption">
+                    Golf Cart
+                </div><!-- #caption -->
+            </div>
+
+            <div class="first">
+                <img class="pic1" src="img/RiverBendGolfClub.jpg" alt="River Bend Golf Club">
+                <div class="caption">
+                    River Bend Golf Club
+                </div><!-- #caption -->
+            </div>
+
+            <div class="first">
+                <img class="pic1" src="img/balmoral-woods-golf-gallery-04.jpg" alt="Public golf in Chicagoland">
+                <div class="caption">
+                    Public golf in Chicagoland
+                </div><!-- #caption -->
+            </div>
+        </div><!-- #gallery1 -->
+
+        <div id="gallery2">
+
+            <div id="seconda">
+                <img id="pic2a" src="img/golfcub.jpg" alt="golf club">
+                <div class="caption">
+                    Golf Club Set2
+                </div><!-- #caption -->
+            </div>
+
+            <div id="box">
+
+                <div class="second">
+                    <img class="pic2" src="img/woodtee.jpg" alt="Golf wood tee">
+                    <div class="caption">
+                        Golf Wood tee
+                    </div><!-- #caption -->
+                </div>
+
+                <div class="second">
+                    <img class="pic2" src="img/Golfpinflag.jpg" alt="Golf pin flag">
+                    <div class="caption">
+                        Golf Pin Flag
+                    </div><!-- #caption -->
+                </div>
+
+            </div><!-- #box -->
+
+        </div><!-- #gallery2 -->
+
+        <div id="gallery3">
+
+            <div class="Third">
+                <img class="pic3" src="img/snoopy.jpg" alt="snoopy golf ball">
+                <div class="caption">
+                    Snoopy Golf Ball
+                </div><!-- #caption -->
+            </div>
+
+            <div class="Third">
+                <img class="pic3a" src="img/cat_rapper_music_cute_golf_balls-r6ce77588efa641eaa48288032ca6556f_u9ah5_630.jpg" alt="cat rapper golf ball">
+                <div class="caption">
+                    Cat Rapper Golf Ball
+                </div><!-- #caption -->
+            </div>
+
+            <div class="Third">
+                <img class="pic3a" src="img/pig.jpg" alt="pig golf ball">
+                <div class="caption">
+                    Pig Golf Ball
+                </div><!-- #caption -->
+            </div><!-- .line3 -->
+
+            <div class="Third">
+                <img class="pic3" src="img/heart.jpg" alt="heart golf ball">
+                <div class="caption">
+                    Heart Golf Ball
+                </div><!-- #caption -->
+            </div>
+
+        </div><!-- gallery3 -->
+    </div><!-- #main -->
+
+    <div id="footer">
+        <p>University of Southern California @2023</p>
+    </div>
+
+</body>
+
+</html>
