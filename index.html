@@ -3,6 +3,8 @@
 <head>
     <title> Annan Chen | Student Page </title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         #main {
             width: 850px;
@@ -44,6 +46,23 @@
         #right2{
             width: 500px;
             padding: 15px;
+        }
+        @media (max-width: 767px) {
+            #main {
+				padding-top: 0px;
+                width:auto;
+            }
+            #wrapper1, #wrapper2 {
+                flex-direction: column;
+            }
+            img {
+				width: 100%;
+				height: auto;
+			}
+            #left, #right, #left2, #right2{
+                width: auto;
+                border: none;
+            }
         }
     </style>
 </head>
@@ -97,6 +116,7 @@
                     <li><a target="_blank" href="lab_05\formpage.html" >Lab 5: Form Page</a></li>
                     <li><a target="_blank" href="lab_06\PhotoGallery.html" >Lab 6: Simple Photo Gallery</a></li>
                     <li><a target="_blank" href="lab_07\ImagePuzzle.html" >Lab 7:Image Puzzle</a></li>
+                    <li><a target="_blank" href="index.html" >Lab 8:Responsive Student Page</a></li>
                 </ul>
             </div>
         </div><!--wrapper2-->
