@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Annan Chen | Final project </title>
+
+    <link rel="stylesheet" href="main2.css">
+    <meta name="description"
+        content="A brief introduction to my hometown Wenzhou's local cuisine. It is well known for its treatment of seafood.">
+
+    <style>
+        #header {
+            background-image: url("img/202002181448262209283074.png");
+            margin-top: 0px;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: rgb(43, 79, 146);
+            opacity: 80%;
+        }
+
+
+        #gallery {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+
+        .first {
+            width: 315px;
+            height: 315px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #rice {
+            width: auto;
+            height: 315px;
+            position: relative;
+        }
+
+        #yashe {
+            width: auto;
+            height: 315px;
+            position: relative;
+        }
+
+        #xuehua {
+            width: auto;
+            height: 315px;
+            position: relative;
+        }
+
+        .caption {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #FFF;
+            text-align: center;
+            padding-top: 100px;
+            visibility: hidden;
+        }
+
+        .first:hover>.caption {
+            visibility: visible;
+        }
+
+        body:hover h1 {
+            transition: all 2s ease-in;
+            transform: scale(1.5);
+        }
+
+        #wrapper {
+            display: flex;
+        }
+
+        .container img {
+            width: 313px;
+            height: 350px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .t>p {
+            text-align: center;
+        }
+
+        #footer {
+            background-color:rgb(43, 79, 146);
+        }
+        #navbar {
+            background-color:rgb(43, 79, 146) ;
+        }
+        #navbar li {
+            background-color:rgb(43, 79, 146) ;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Local Cuisine</h1>
+    </div>
+
+    <div id="navbar">
+        <ul>
+            <li><a id="active-nav" href="finalprojecthomepage.html"><strong>Home</strong></a>
+            </li>
+
+            <li><a href="LocalCuisine.html"><strong>Cuisine</strong></a>
+                <ul>
+                    <li><a href="LocalCuisine.html#main"><strong>Gallery</strong></a></li>
+                    <li><a href="LocalCuisine.html#wrapper"><strong>Rice Noodle Soup</strong></a></li>
+                    <li><a href="LocalCuisine.html#wrapper"><strong>Fish Cake</strong></a></li>
+                    <li><a href="LocalCuisine.html#wrapper"><strong>Fish Ball</strong></a></li>
+                </ul>
+            </li>
+
+            <li><a href="Language.html"><strong>Language</strong></a>
+            </li>
+            <li><a href="Industry.html"><strong>Industry</strong></a></li>
+
+        </ul>
+    </div>
+
+    <div id="main">
+
+        <h2>Look!</h2>
+        <div id="gallery">
+
+            <div class="first">
+                <img id="rice" src="img/DSCF8540.original.original.jpg" alt="Sticky rice">
+                <div class="caption">
+                    Wenzhounese Sticky Rice: Nuo mi fan (糯米飯) or "savoury sticky rice" is a rich, flavour-packed,
+                    aromatic Chinese rice dish using glutinous rice seasoned perfectly.
+                </div>
+            </div>
+
+            <div class="first">
+                <img id="yashe" src="img/2020021815060847091040935.png" alt="Duck Tongue">
+                <div class="caption">
+                    Wenzhou Duck Tongue：Ya she (鸭舌)is salted and semi-dried by natural wind in the air. When you chew
+                    it, you will find it resilient and quite chewy as well.
+                </div>
+            </div>
+
+            <div class="first">
+                <img id="xuehua" src="img/xuehua.jpg" alt="Blood clam">
+                <div class="caption">
+                    Blood clam: xueha(血蛤) is a species of ark clam known as the blood cockle or blood clam due to the
+                    red haemoglobin liquid inside the soft tissues.
+                </div>
+            </div>
+
+        </div>
+
+        <h2>More!</h2>
+
+        <div id="wrapper">
+
+            <div class="wrapper1">
+                <div class="container">
+                    <img src="img/2020021815190267401273136.png" alt="Rice Noodle Soup">
+                </div>
+
+                <div class="t">
+                    <h2>Rice Noodle Soup</h2>
+                    <p> Wenzhou pig intestines rice noodle soup (Chinese: 温州猪脏粉) is a noodle
+                        soup dish made with rice noodles, pig intestine and duck or pig blood. It comes from Wenzhou, in
+                        Zhejiang, China. It can be eaten at breakfast or throughout the day.Intestines are cooked in
+                        aromatics such as rice wine, soy sauce, ginger, soybean paste, or
+                        garlic until softened.</p>
+                </div>
+            </div>
+
+            <div class="wrapper1">
+                <div class="container">
+                    <img src="img/W020200903632651647162.jpg" alt="Fish Cake">
+                </div>
+
+                <div class="t">
+                    <h2>Fish Cake</h2>
+                    <p>Fish cake is a Wenzhou special snack. Taking fresh sea fishes such as brown croaker and mackerel
+                        from the East China Sea as the main raw materials and matching with unique seasonings, it is
+                        crafted by adopting traditional recipes and advanced techniques. Wenzhou fish cake is
+                        characteristic of its tender texture, delicate flavor, not-fishy taste, low-in-fat, and
+                        rich-in-nutrient. </p>
+                </div>
+            </div>
+
+            <div class="wrapper1">
+                <div class="container">
+                    <img src="img/221201145908916601.png" alt="Fish Ball">
+                </div>
+
+                <div class="t">
+                    <h2>Fish Ball</h2>
+                    <p>Wenzhou Fish Ball is a traditional famous food in Wenzhou, Zhejiang Province. As snack food
+                        commonly seen in water-town households, Wenzhou Fish Ball is different from fish balls in other
+                        regions. The soup is clear, slightly sour and hot. The fish balls are elastic and mostly
+                        irregularly long, which are translucent jade white.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        Wenzhou @ 2023
+    </div>
+</body>
+
+</html>

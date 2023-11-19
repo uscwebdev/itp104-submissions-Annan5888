@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Pangolin";
+	src: url("fonts/Pangolin-Regular.ttf");
+}
+
+#header {
+    background-image: url("img/wenzhou.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    font-family: 'Pangolin', Arial;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 500px;
+    text-shadow: 5px 5px 8px black;
+}
+
+body {
+    background-color:lightblue;
+    margin: 0px;
+}
+
+h2 {
+    background-color:lightblue;
+    color:white;
+    border-radius: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+    text-shadow: 5px 5px 10px black;
+
+}
+
+#main {
+    background-color: rgb(83, 153, 184);
+    width: 1000px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#footer {
+    background-color: rgb(57, 128, 235);
+    height: 50px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#navbar li {
+    width: 180px;
+    background-color: rgb(57, 128, 235);
+    text-align: center;
+
+    position: relative;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+#navbar>ul ul {
+    position: absolute;
+    display: none;
+}
+
+#navbar>ul ul ul {
+    top: 0px;
+    left: 180px;
+}
+
+#navbar li:hover>ul {
+    display: block;
+}
+
+#navbar a:hover,
+#navbar #active-nav {
+    color: rgb(57, 128, 235);
+    background-color: whitesmoke;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: rgb(57, 128, 235);
+    display: flex;
+    justify-content: center;
+}
